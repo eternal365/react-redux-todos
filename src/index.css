@@ -1,0 +1,39 @@
+*, :before, :after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: #2196f3;
+    color: #ffffff;
+}
+
+::placeholder {
+    color: #9e9e9e;
+}
+
+body {
+    background: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1em;
+    color: #212121;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1em;
+    border: none;
+    outline: none;
+}
+
+.app {
+    max-width: 480px;
+    background: #ffffff;
+    border-radius: 4px;
+    margin: 30px auto;
+    padding: 15px;
+    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
